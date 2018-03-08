@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,700|Hind:300,400,700');
+body {
+ font-family: 'Hind', sans-serif;
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.portada {
+background-image: url('../images/fondo.jpg');
+margin-top: 24px;
+}
+
+
+.newspaper {
+
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    
+    -moz-column-count: 3; /* Firefox */
+    
+    column-count: 2;
+    text-align: left;
+    padding-right: 400px;
+    padding-left: 400px;
+ 
+    
+    }   
+    .titulodecolumnas {
+    
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+    text-align: center;
+    
+    text-decoration-line: underline;
+    
+    font-size: 30px;
+
+    }
+
+    .container-fluid {
+        position: absolute;
+        bottom: 0; 
+    }
+    
